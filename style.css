@@ -12,13 +12,13 @@ header{
 	opacity: 10%;
 	border-radius: 5px;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	transition-duration: 0.8s;
+	transition-timing-function: ease-in-out;
 }
 
 header:hover {
 	opacity: 90%;
 	font-size: 125%;
-	transition-duration: 1s;
-	transition-timing-function: ease-out;
 }
 
 footer {
@@ -29,6 +29,8 @@ footer {
 	opacity: 10%;
 	border-radius: 5px;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	transition-duration: 0.8s;
+	transition-timing-function: ease-in-out;
 }
 
 footer:hover {
@@ -37,6 +39,8 @@ footer:hover {
 
 a {
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	transition-duration: 0.8s;
+	transition-timing-function: ease-in-out;
 }
 
 a:link {
@@ -62,15 +66,16 @@ article {
 	opacity: 10%;
 	color: yellow;
 	font-size: 10px;
+	line-height: 28px;
 	border-radius: 5px;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	transition-duration: 0.8s;
+	transition-timing-function: ease-in-out;
 }
 
 article:hover {
 	opacity: 90%;
 	font-size: 110%;
-	transition-duration: 3s;
-	transition-timing-function: ease-out;
 }
 
 button {
@@ -85,7 +90,8 @@ button {
 	color: yellow;
 	font-size: 15px;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-	transition-duration: 1s;
+	transition-duration: 0.8s;
+	transition-timing-function: ease-in-out;
 }
 
 button:hover {
@@ -118,6 +124,8 @@ ol {
 	background-color: grey;
 	color: transparent;
 	text-align: center;
+	transition-duration: 0.8s;
+	transition-timing-function: ease-in-out;
 }
 
 .card:hover {
@@ -187,16 +195,24 @@ ol {
 	opacity: 100%;
 }
 
+.l-left {
+	padding: 5px;
+	transition-duration: 0.8s;
+	transition-timing-function: ease-in-out;
+}
+
+.l-right {
+	padding: 5px;
+	transition-duration: 0.8s;
+	transition-timing-function: ease-in-out;
+}
+
 .l-left:hover {
 	transform: rotate(-25deg);
-	transition-duration: 1s;
-	transition-timing-function: ease-out;
 }
 
 .l-right:hover {
 	transform: rotate(25deg);
-	transition-duration: 1s;
-	transition-timing-function: ease-out;
 }
 
 .a-header {
