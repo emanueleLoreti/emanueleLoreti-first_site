@@ -10,6 +10,7 @@ header{
 	background-color: yellow;
 	text-align: center;
 	opacity: 10%;
+	border-radius: 5px;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -26,6 +27,7 @@ footer {
 	background-color: yellow;
 	text-align: center;
 	opacity: 10%;
+	border-radius: 5px;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -60,13 +62,14 @@ article {
 	opacity: 10%;
 	color: yellow;
 	font-size: 20px;
+	border-radius: 5px;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 article:hover {
 	opacity: 90%;
 	font-size: 180%;
-	transition-duration: 1.5s;
+	transition-duration: 3s;
 	transition-timing-function: ease-out;
 }
 
@@ -118,6 +121,7 @@ ol {
 }
 
 .card:hover {
+	color: white;
 	transform: rotate(10deg);
 }
 
@@ -180,7 +184,6 @@ ol {
 }
 
 .link:hover {
-	background-color: black;
 	opacity: 100%;
 }
 
@@ -229,5 +232,22 @@ ol {
 	background-image: url("https://adamomagazine.files.wordpress.com/2013/08/large_crali_einschneisen.jpg");
 	background-size: cover;
 }
+
+.didascalia {
+	position: absolute;
+	padding: 5px;
+	margin: 5px;
+	bottom: 5px;
+	text-align: center;
+	background-color: black;
+	opacity: 40%;
+	width: 85%;
+}
+
+.didascalia:hover {
+	opacity: 100%;
+}
+
+
 
 
