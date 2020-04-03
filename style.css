@@ -1,0 +1,165 @@
+body {
+	font-family: 'Special Elite', cursive;
+	background: url("https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Manifestofuturismo.jpg/800px-Manifestofuturismo.jpg") no-repeat center fixed;
+  	background-size: cover;
+}
+
+header{
+	padding: 20px;
+	margin: 20px;
+	background-color: yellow;
+	text-align: center;
+	opacity: 10%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+header:hover {
+	opacity: 100%;
+	font-size: 125%;
+	transition-duration: 1s;
+	transition-timing-function: ease-out;
+}
+
+footer {
+	padding: 5px;
+	margin: 5px;
+	background-color: yellow;
+	text-align: center;
+	opacity: 10%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+footer:hover {
+	opacity: 100%;
+}
+
+a {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+a:link {
+	color: transparent;
+	text-decoration: none;
+}
+
+a:hover {
+	color: white;
+	font-size: 125%;
+	text-decoration: none;
+}
+
+main {
+	padding: 50px;
+}
+
+article {
+	padding: 20px;
+	margin: 20px;
+	background-color: black;
+	text-align: center;
+	opacity: 10%;
+	color: yellow;
+	font-size: 25px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+article:hover {
+	opacity: 100%;
+	font-size: 200%;
+	transition-duration: 1.5s;
+	transition-timing-function: ease-out;
+}
+
+.container {
+	padding: 75px;
+	margin: auto;
+	box-sizing: border-content;
+	display: grid;
+	grid-template-rows: repeat(auto, 300px);
+	grid-template-columns: repeat(2, 200px);
+	grid-gap: 10px;
+	justify-content: space-around;
+	align-content: space-between;
+}
+
+.card {
+	height: 300px;
+	width: 200px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	margin: 10px;
+	padding: 10px;
+	background-color: grey;
+	color: transparent;
+	text-align: center;
+}
+
+.card:hover {
+	transform: rotate(10deg);
+}
+
+.card:hover a {
+	background-color: black;
+	transform: rotate(-25deg);
+}
+
+.left {
+	transform: rotate(-10deg);
+}
+
+.right {
+	transform: rotate(10deg);
+}
+
+.left:hover {
+	transform: rotate(10deg);
+}
+
+.right:hover {
+	transform: rotate(-10deg);
+}
+
+.item1 {
+	background-image: url("http://www.pittando.it/wp-content/uploads/tullio-crali.jpg");
+	background-size: cover;
+}
+
+.item2 {
+	background-image: url("https://static.wixstatic.com/media/c5f295_9cba04ea9c774e2b9984281eb1af3d26~mv2.jpg/v1/fill/w_788,h_525,al_c,q_85,usm_0.66_1.00_0.01/c5f295_9cba04ea9c774e2b9984281eb1af3d26~mv2.webp");
+	background-size: cover;
+}
+
+.item3 {
+	background-image: url("https://i.pinimg.com/236x/bb/7e/91/bb7e91bdfb7bda43c2657ac11797a6c8--italian-futurism-graphic-designers.jpg");
+	background-size: cover;
+}
+
+.item4 {
+	background-image: url("https://www.ilcaffeartisticodilo.it/wp-content/uploads/2016/03/Guillaume-Apollinaire-Reconnais-toi-da-Po%C3%A8me-du-9-f%C3%A9vrier-1915..png");
+	background-size: cover;
+}
+
+.item5 {
+	background-image: url("https://www.ilcorriereapuano.it/wp-content/uploads/2018/02/09mosaici_futuristi_LaSpezia-204x300.jpg");
+	background-size: cover;
+}
+
+.item6 {
+	background-image: url("https://www.futurismo.org/wp-content/uploads/2016/08/thais76.jpg");
+	background-size: cover;
+}
+
+.link {
+	width: auto;
+	height: auto;
+	background-color: black;
+	opacity: 40%;
+}
+
+.link:hover {
+	background-color: black;
+	opacity: 100%;
+	transform: rotate(-25deg);
+	transition-duration: 1s;
+	transition-timing-function: ease-out;
+}
+
