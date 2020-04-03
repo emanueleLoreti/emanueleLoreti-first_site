@@ -14,7 +14,7 @@ header{
 }
 
 header:hover {
-	opacity: 100%;
+	opacity: 90%;
 	font-size: 125%;
 	transition-duration: 1s;
 	transition-timing-function: ease-out;
@@ -30,7 +30,7 @@ footer {
 }
 
 footer:hover {
-	opacity: 100%;
+	opacity: 90%;
 }
 
 a {
@@ -59,15 +59,39 @@ article {
 	text-align: center;
 	opacity: 10%;
 	color: yellow;
-	font-size: 25px;
+	font-size: 20px;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 article:hover {
-	opacity: 100%;
-	font-size: 200%;
+	opacity: 90%;
+	font-size: 180%;
 	transition-duration: 1.5s;
 	transition-timing-function: ease-out;
+}
+
+button {
+	font-family: 'Special Elite', cursive;
+	padding: 20px;
+	margin: 20px;
+	background-color: black;
+	text-align: center;
+	border: none;
+	border-radius: 8px;
+	opacity: 90%;
+	color: yellow;
+	font-size: 15px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	transition-duration: 1s;
+}
+
+button:hover {
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.30), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+ol {
+	margin: 25px;
+
 }
 
 .container {
@@ -102,19 +126,19 @@ article:hover {
 	transform: rotate(-25deg);
 }
 
-.left {
+.c-left {
 	transform: rotate(-10deg);
 }
 
-.right {
+.c-right {
 	transform: rotate(10deg);
 }
 
-.left:hover {
+.c-left:hover {
 	transform: rotate(10deg);
 }
 
-.right:hover {
+.c-right:hover {
 	transform: rotate(-10deg);
 }
 
@@ -158,8 +182,52 @@ article:hover {
 .link:hover {
 	background-color: black;
 	opacity: 100%;
+}
+
+.l-left:hover {
 	transform: rotate(-25deg);
 	transition-duration: 1s;
 	transition-timing-function: ease-out;
 }
+
+.l-right:hover {
+	transform: rotate(25deg);
+	transition-duration: 1s;
+	transition-timing-function: ease-out;
+}
+
+.a-header {
+	box-shadow: 0, 0;
+}
+
+.dipinto-1 {
+	background-image: url("http://www.pittando.it/wp-content/uploads/boccioni-elasticita.jpg");
+	background-size: cover;
+}
+
+.dipinto-2 {
+	background-image: url("https://www.analisidellopera.it/wp-content/uploads/2018/06/Carra_Manifestazione_interventista.jpg");
+	background-size: cover;
+}
+
+.dipinto-3 {
+	background-image: url("https://d3d00swyhr67nd.cloudfront.net/w800h800/collection/LNE/ECOL/LNE_ECOL_10-001.jpg");
+	background-size: cover;
+}
+
+.dipinto-4 {
+	background-image: url("https://www.analisidellopera.it/wp-content/uploads/2018/06/Balla_Lampada_ad_arco.jpg");
+	background-size: cover;
+}
+
+.dipinto-5 {
+	background-image: url("http://29.media.tumblr.com/tumblr_l3ta5wkTjf1qbvvkso1_500.jpg");
+	background-size: cover;
+}
+
+.dipinto-6 {
+	background-image: url("https://adamomagazine.files.wordpress.com/2013/08/large_crali_einschneisen.jpg");
+	background-size: cover;
+}
+
 
