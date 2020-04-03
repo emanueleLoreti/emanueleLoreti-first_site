@@ -61,14 +61,14 @@ article {
 	text-align: center;
 	opacity: 10%;
 	color: yellow;
-	font-size: 20px;
+	font-size: 10px;
 	border-radius: 5px;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 article:hover {
 	opacity: 90%;
-	font-size: 180%;
+	font-size: 110%;
 	transition-duration: 3s;
 	transition-timing-function: ease-out;
 }
@@ -248,6 +248,34 @@ ol {
 	opacity: 100%;
 }
 
+.statua-1 {
+	background-image: url("https://static.wixstatic.com/media/c5f295_9cba04ea9c774e2b9984281eb1af3d26~mv2.jpg/v1/fill/w_788,h_525,al_c,q_85,usm_0.66_1.00_0.01/c5f295_9cba04ea9c774e2b9984281eb1af3d26~mv2.webp");
+	background-size: cover;
+}
 
+.statua-2 {
+	background-image: url("http://www.rodoni.ch/boccioni/scantigraziosodouble.jpg");
+	background-size: cover;
+}
+
+.statua-3 {
+	background-image: url("https://scontent-fco1-1.xx.fbcdn.net/v/t31.0-8/12000932_10153669073704589_2536561133106960456_o.jpg?_nc_cat=104&_nc_sid=8024bb&_nc_ohc=Af4dVqTD4pcAX8k5-tS&_nc_ht=scontent-fco1-1.xx&oh=6c1e41cef4ca2786d9a1d1737f140067&oe=5EAE9739");
+	background-size: cover;
+}
+
+.statua-4 {
+	background-image: url("https://i.pinimg.com/236x/f4/88/94/f48894a249174443c971d81e87bdbf26--italian-futurism-abstract-sculpture.jpg");
+	background-size: cover;
+}
+
+.statua-5 {
+	background-image: url("https://www.artribune.com/wp-content/uploads/2018/09/Fortunato-Depero-Pupazzo-che-beve-Camparisoda-1926.-Courtesy-of-Fondazione-Sicilia.jpg");
+	background-size: cover;
+}
+
+.statua-6 {
+	background-image: url("https://www.farsettiarte.it/photos/auctions/xlarge/80342.jpg");
+	background-size: cover;
+}
 
 
