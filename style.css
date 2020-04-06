@@ -1,5 +1,5 @@
 body {
-	font-family: 'Special Elite', cursive;
+	font-family: 'Roboto Mono', monospace;
 	background: url("https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Manifestofuturismo.jpg/800px-Manifestofuturismo.jpg") no-repeat center fixed;
   	background-size: cover;
 }
@@ -9,6 +9,7 @@ header{
 	margin: 20px;
 	background-color: yellow;
 	text-align: center;
+	font-family: "Special Elite" , cursive;
 	opacity: 10%;
 	border-radius: 5px;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -100,7 +101,6 @@ button:hover {
 
 ol {
 	margin: 25px;
-
 }
 
 .container {
@@ -122,6 +122,7 @@ ol {
 	margin: 10px;
 	padding: 10px;
 	background-color: grey;
+	background-size: cover;
 	color: transparent;
 	text-align: center;
 	transition-duration: 0.8s;
@@ -156,32 +157,26 @@ ol {
 
 .item1 {
 	background-image: url("http://www.pittando.it/wp-content/uploads/tullio-crali.jpg");
-	background-size: cover;
 }
 
 .item2 {
 	background-image: url("https://static.wixstatic.com/media/c5f295_9cba04ea9c774e2b9984281eb1af3d26~mv2.jpg/v1/fill/w_788,h_525,al_c,q_85,usm_0.66_1.00_0.01/c5f295_9cba04ea9c774e2b9984281eb1af3d26~mv2.webp");
-	background-size: cover;
 }
 
 .item3 {
 	background-image: url("https://i.pinimg.com/236x/bb/7e/91/bb7e91bdfb7bda43c2657ac11797a6c8--italian-futurism-graphic-designers.jpg");
-	background-size: cover;
 }
 
 .item4 {
 	background-image: url("https://www.ilcaffeartisticodilo.it/wp-content/uploads/2016/03/Guillaume-Apollinaire-Reconnais-toi-da-Po%C3%A8me-du-9-f%C3%A9vrier-1915..png");
-	background-size: cover;
 }
 
 .item5 {
 	background-image: url("https://i.pinimg.com/236x/88/16/0d/88160d7e3f2c0f716f48c480caf2bc5e--italian-futurism-porto.jpg");
-	background-size: cover;
 }
 
 .item6 {
 	background-image: url("https://www.futurismo.org/wp-content/uploads/2016/08/thais76.jpg");
-	background-size: cover;
 }
 
 .link {
@@ -189,22 +184,13 @@ ol {
 	height: auto;
 	background-color: black;
 	opacity: 40%;
+	padding: 5px;
+	transition-duration: 0.8s;
+	transition-timing-function: ease-in-out;
 }
 
 .link:hover {
 	opacity: 100%;
-}
-
-.l-left {
-	padding: 5px;
-	transition-duration: 0.8s;
-	transition-timing-function: ease-in-out;
-}
-
-.l-right {
-	padding: 5px;
-	transition-duration: 0.8s;
-	transition-timing-function: ease-in-out;
 }
 
 .l-left:hover {
@@ -221,32 +207,26 @@ ol {
 
 .dipinto-1 {
 	background-image: url("http://www.pittando.it/wp-content/uploads/boccioni-elasticita.jpg");
-	background-size: cover;
 }
 
 .dipinto-2 {
 	background-image: url("https://www.analisidellopera.it/wp-content/uploads/2018/06/Carra_Manifestazione_interventista.jpg");
-	background-size: cover;
 }
 
 .dipinto-3 {
 	background-image: url("https://d3d00swyhr67nd.cloudfront.net/w800h800/collection/LNE/ECOL/LNE_ECOL_10-001.jpg");
-	background-size: cover;
 }
 
 .dipinto-4 {
 	background-image: url("https://www.analisidellopera.it/wp-content/uploads/2018/06/Balla_Lampada_ad_arco.jpg");
-	background-size: cover;
 }
 
 .dipinto-5 {
 	background-image: url("http://29.media.tumblr.com/tumblr_l3ta5wkTjf1qbvvkso1_500.jpg");
-	background-size: cover;
 }
 
 .dipinto-6 {
 	background-image: url("https://adamomagazine.files.wordpress.com/2013/08/large_crali_einschneisen.jpg");
-	background-size: cover;
 }
 
 .didascalia {
@@ -266,32 +246,24 @@ ol {
 
 .statua-1 {
 	background-image: url("https://static.wixstatic.com/media/c5f295_9cba04ea9c774e2b9984281eb1af3d26~mv2.jpg/v1/fill/w_788,h_525,al_c,q_85,usm_0.66_1.00_0.01/c5f295_9cba04ea9c774e2b9984281eb1af3d26~mv2.webp");
-	background-size: cover;
 }
 
 .statua-2 {
 	background-image: url("http://www.rodoni.ch/boccioni/scantigraziosodouble.jpg");
-	background-size: cover;
 }
 
 .statua-3 {
 	background-image: url("https://scontent-fco1-1.xx.fbcdn.net/v/t31.0-8/12000932_10153669073704589_2536561133106960456_o.jpg?_nc_cat=104&_nc_sid=8024bb&_nc_ohc=Af4dVqTD4pcAX8k5-tS&_nc_ht=scontent-fco1-1.xx&oh=6c1e41cef4ca2786d9a1d1737f140067&oe=5EAE9739");
-	background-size: cover;
 }
 
 .statua-4 {
 	background-image: url("https://i.pinimg.com/236x/f4/88/94/f48894a249174443c971d81e87bdbf26--italian-futurism-abstract-sculpture.jpg");
-	background-size: cover;
 }
 
 .statua-5 {
 	background-image: url("https://www.artribune.com/wp-content/uploads/2018/09/Fortunato-Depero-Pupazzo-che-beve-Camparisoda-1926.-Courtesy-of-Fondazione-Sicilia.jpg");
-	background-size: cover;
 }
 
 .statua-6 {
 	background-image: url("https://www.farsettiarte.it/photos/auctions/xlarge/80342.jpg");
-	background-size: cover;
 }
-
-
